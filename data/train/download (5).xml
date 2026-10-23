@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sun images</folder>
+	<filename>download (5).jpg</filename>
+	<path>C:\Users\lenovo\Desktop\sun images\download (5).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>735</width>
+		<height>589</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>487</xmin>
+			<ymin>294</ymin>
+			<xmax>692</xmax>
+			<ymax>504</ymax>
+		</bndbox>
+	</object>
+</annotation>

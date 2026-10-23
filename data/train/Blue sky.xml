@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sun images</folder>
+	<filename>Blue sky.jpeg</filename>
+	<path>C:\Users\lenovo\Desktop\sun images\Blue sky.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>722</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>154</xmin>
+			<ymin>541</ymin>
+			<xmax>316</xmax>
+			<ymax>694</ymax>
+		</bndbox>
+	</object>
+</annotation>

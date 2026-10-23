@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sun images</folder>
+	<filename>49faa54e-0122-44a0-a742-94182421973c.jpg</filename>
+	<path>C:\Users\lenovo\Desktop\sun images\49faa54e-0122-44a0-a742-94182421973c.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>736</width>
+		<height>1308</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>37</xmin>
+			<ymin>250</ymin>
+			<xmax>267</xmax>
+			<ymax>484</ymax>
+		</bndbox>
+	</object>
+</annotation>
