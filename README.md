@@ -18,7 +18,7 @@ This is the final-year project of three Electrical and Electronics Engineering s
 
 ## Background
 
-A solar panel produces the most power when it faces the sun. A fixed panel points one way all day, while a tracker follows the sun across the sky. Conventional trackers work from a fixed rule or from simple light sensors, and they do not learn from the conditions they operate in. Earlier work on AI-driven trackers reported power gains of about 20% over fixed panels (Ilo et al., 2014; Li, Li and Li, 2022), and Carballo et al. (2019) trained a TensorFlow model to identify the sun directly from a camera image.
+A solar panel produces the most power when it faces the sun. A fixed panel points one way all day, while a tracker follows the sun across the sky. Conventional trackers work from a fixed rule or from simple light sensors, and they do not learn from the conditions they operate in. Earlier work on AI-driven trackers includes a neural-network controlled robotic-arm tracker that produced 20% more power than a fixed cell (Ilo, Onoh and Eke, 2014), and a camera-based approach that combines computer vision and deep learning to find the sun in images (Carballo et al., 2019). Full references are at the end.
 
 We took the camera route. A camera sees the whole sky, which gives the model more information than a single light-dependent resistor, and the same video feed could later be used to watch for clouds.
 
@@ -191,12 +191,17 @@ The script reads the camera, runs `detect.tflite` on each frame, and draws a box
 
 ## Credits
 
-Project team: Adda Jabal Namansam, Alfred Battorow and Anokye Yeboah Nana. Supervisor: Mr. Peter Asigri.
+Project team: Adda Jabal Namansam, Alfred Battorow and Anokye Yeboah Nana. Supervisor: Dr. Peter Asigri.
 
 - Nicholas Renotte's [video](https://www.youtube.com/watch?v=pDXdlXlaCco) and [repository](https://github.com/nicknochnack/RealTimeObjectDetection) for the training workflow.
 - The [TensorFlow 2 Object Detection API tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html) for the installation steps and `generate_tfrecord.py`.
 - The [TensorFlow Lite Raspberry Pi object detection example](https://github.com/tensorflow/examples/blob/master/lite/examples/object_detection/raspberry_pi/README.md), which `pi/detect.py` is based on.
 - The pre-trained SSD MobileNet V2 FPNLite model from the TensorFlow 2 Detection Model Zoo.
+
+## References
+
+- F. U. Ilo, G. N. Onoh and J. Eke, "An Artificial Intelligent Based Solar Tracking System for Improving the Power Output of a Solar Cell", International Journal of Engineering Research & Technology, 2014. [doi:10.17577/IJERTV3IS110356](https://doi.org/10.17577/IJERTV3IS110356)
+- J. A. Carballo, J. Bonilla, M. Berenguel, J. Fernandez-Reche and G. Garcia, "New approach for solar tracking systems based on computer vision, low cost hardware and deep learning", Renewable Energy, vol. 133, pp. 1158-1166, 2019. [Preprint on arXiv](https://arxiv.org/pdf/1809.07048)
 
 ## License
 
